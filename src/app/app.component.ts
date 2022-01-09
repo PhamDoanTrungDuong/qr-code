@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'QR';
+  public title = 'QR';
+  public qrInfo = 'hello';
+  public image= '';
+  public width = 400
+
 }
+
+
